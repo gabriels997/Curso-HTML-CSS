@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(89, 89, 89);
+    padding: 3px;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.429);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+/* Usei o NAV atras pq só queria os links dentro dele com o hover*/
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.485);
+}
+
+article {
+    background-color: lightgray;
+
+}
+ article > aside {
+    background-color: rgb(146, 146, 146);
+    padding: 5px;
+ }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+
+}
+
+footer > p {
+    margin: 0px;
+}
+
+.bola {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
